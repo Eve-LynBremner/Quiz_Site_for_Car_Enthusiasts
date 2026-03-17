@@ -7,6 +7,7 @@ import CourseList from "./components/CourseList";
 import CourseDetails from "./components/CourseDetails";
 import SubscribedCourses from "./components/SubscribedCourses";
 import Quiz from "./components/Quiz";
+import LandingPage from "./components/LandingPage";
 
 import { SessionProvider } from "./contexts/SessionContext";
 
@@ -16,12 +17,11 @@ const App = () => {
       <SessionProvider>
         <Header />
         <Routes>
-          <Route path="/" element={<CourseList />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/course/:id" element={<CourseDetails />} />
           <Route path="/profile" element={<SubscribedCourses />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-
           <Route path="/quiz" element={<Quiz />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
