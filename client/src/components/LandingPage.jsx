@@ -59,7 +59,7 @@ const LandingPage = () => {
     });
 
     const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "200% top" : "bottom top";
+    const endValue = isMobile ? "120% top" : "bottom top";
 
     let tl = gsap.timeline({
       scrollTrigger: {
@@ -67,12 +67,11 @@ const LandingPage = () => {
         start: startValue,
         end: endValue,
         scrub: true,
-        pin: true,
       },
     });
 
     videoRef.current.onloadedmetadata = () => {
-      const duration = videoRef.current.duration;
+      const duration = videoRef.current.duration - 0.2;
       videoRef.current.currentTime = 0;
 
       tl.to(videoRef.current, { currentTime: duration });
@@ -81,6 +80,16 @@ const LandingPage = () => {
 
   return (
     <div>
+      <div className="fixed inset-0  -z-10">
+        <video
+          ref={videoRef}
+          src={heroVideo}
+          muted
+          playsInline
+          preload="auto"
+          className="w-full md:h-[100%]  absolute bottom-0 left-0 md:object-contain object-bottom object-cover;"
+        />
+      </div>
       <section
         id="hero"
         className="relative z-10 min-h-dvh w-full border border-transparent "
@@ -110,22 +119,14 @@ const LandingPage = () => {
             <button className="px-20 py-8 text-2xl md:text-3xl  bg-red-600 text-white font-bold transition-all duration-300 hover:shadow-[0_0_40px_rgba(220,38,38,0.8)] hover:box-transition-all uppercase tracking-tighter">
               <Link to="/login">Login</Link>
             </button>
-            <button className="px-20 py-8 text-2xl md:text-3xl border bg-green-700 border-white/20 transition-all duration-300 text-white font-bold hover:bg-green-500 transition-all uppercase tracking-tighter">
+            <button className="px-20 py-8 text-2xl md:text-3xl border text-gray-500 bg-white border-white/20 transition-all duration-300 font-bold  hover:shadow-[0_0_40px_rgba(255,255,255,0.5)] hover:box-transition-all uppercase tracking-tighter">
               <Link to="/signup">Sign Up</Link>
             </button>
           </div>
         </div>
       </section>
-      <div className="absolute inset-0  video">
-        <video
-          ref={videoRef}
-          src={heroVideo}
-          muted
-          playsInline
-          preload="auto"
-          className="w-full md:h-[100%]  absolute bottom-0 left-0 md:object-contain object-bottom object-cover;"
-        />
-      </div>
+
+      <div className="bg-red-600 h-5 w-5"></div>
     </div>
   );
 };

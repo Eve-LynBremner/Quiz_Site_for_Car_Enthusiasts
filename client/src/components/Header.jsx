@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header>
-      <h1>LMS 3000</h1>
+      <h1>Motor Mind</h1>
       <nav>
         <Link to="/">Home</Link>
         {token ? (
