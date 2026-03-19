@@ -27,6 +27,7 @@ const LandingPage = () => {
       duration: 1.8,
       ease: "expo.out",
       stagger: 0.06,
+      opacity: 0,
     });
 
     paraSplit.lines.forEach((line) => {
