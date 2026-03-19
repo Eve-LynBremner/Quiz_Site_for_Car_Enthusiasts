@@ -1,32 +1,42 @@
 // import all models
-const Course = require("./course");
-const Category = require("./category");
+const Question = require("./question");
+const Leader = require("./leader");
+const Quiz = require("./quiz");
 const User = require("./user");
-const EnrolledUser = require("./enrolled_user");
 
-Course.belongsTo(Category, {
-  foreignKey: "categoryId",
-  as: "category",
+Question.belongsTo(Quiz, {
+  foreignKey: "quizId",
+  as: "quiz",
 });
 
-Category.hasMany(Course, {
-  foreignKey: "categoryId",
-  as: "courses",
+Quiz.hasMany(Question, {
+  foreignKey: "quizId",
+  as: "questions",
 });
 
-User.belongsToMany(Course, {
-  through: EnrolledUser,
+Leader.belongsTo(User, {
   foreignKey: "userId",
+  as: "user",
 });
 
-Course.belongsToMany(User, {
-  through: EnrolledUser,
-  foreignKey: "courseId",
+User.hasMany(Leader, {
+  foreignKey: "userId",
+  as: "scores",
+});
+
+Leader.belongsTo(Quiz, {
+  foreignKey: "quizId",
+  as: "quiz",
+});
+
+Quiz.hasMany(Leader, {
+  foreignKey: "quizId",
+  as: "quizScores",
 });
 
 module.exports = {
-  Course,
-  Category,
+  Question,
+  Quiz,
+  Leader,
   User,
-  EnrolledUser,
 };

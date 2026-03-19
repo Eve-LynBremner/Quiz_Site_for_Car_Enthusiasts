@@ -1,0 +1,25 @@
+{
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "PlayerOne",
+      "score": 980,
+      "timeTakenSeconds": 42,
+      "dateAchieved": "2026-03-17T18:40:00Z"
+    },
+    {
+      "rank": 2,
+      "username": "CarGuru",
+      "score": 920,
+      "timeTakenSeconds": 55,
+      "dateAchieved": "2026-03-17T18:30:00Z"
+    },
+    {
+      "rank": 3,
+      "username": "Speedster",
+      "score": 900,
+      "timeTakenSeconds": 60,
+      "dateAchieved": "2026-03-17T18:20:00Z"
+    }
+  ]
+}

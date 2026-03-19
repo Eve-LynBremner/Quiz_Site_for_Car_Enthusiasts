@@ -1,0 +1,844 @@
+[
+  {
+    "id": 1,
+    "quizId": 4,
+    "question": "Which company manufactures the Civic?",
+    "options": ["Honda", "Toyota", "Nissan", "Mazda"],
+    "answer": "Honda",
+    "image": null
+  },
+  {
+    "id": 2,
+    "quizId": 4,
+    "question": "Which brand is known for the 911 sports car?",
+    "options": ["Porsche", "Audi", "BMW", "Mercedes-Benz"],
+    "answer": "Porsche",
+    "image": null
+  },
+  {
+    "id": 3,
+    "quizId": 4,
+    "question": "Which manufacturer produces the Fiesta?",
+    "options": ["Ford", "Chevrolet", "Volkswagen", "Peugeot"],
+    "answer": "Ford",
+    "image": null
+  },
+  {
+    "id": 4,
+    "quizId": 4,
+    "question": "Which brand created the iconic Beetle?",
+    "options": ["Volkswagen", "Fiat", "Renault", "Citroën"],
+    "answer": "Volkswagen",
+    "image": null
+  },
+  {
+    "id": 5,
+    "quizId": 4,
+    "question": "Which company owns the luxury brand Lexus?",
+    "options": ["Toyota", "Honda", "Nissan", "Mazda"],
+    "answer": "Toyota",
+    "image": null
+  },
+  {
+    "id": 6,
+    "quizId": 5,
+    "question": "Which manufacturer produces the A-Class?",
+    "options": ["Mercedes-Benz", "BMW", "Audi", "Volvo"],
+    "answer": "Mercedes-Benz",
+    "image": null
+  },
+  {
+    "id": 7,
+    "quizId": 5,
+    "question": "Which brand is responsible for the RX-8?",
+    "options": ["Mazda", "Honda", "Nissan", "Subaru"],
+    "answer": "Mazda",
+    "image": null
+  },
+  {
+    "id": 8,
+    "quizId": 5,
+    "question": "Which company produces the C-Class?",
+    "options": ["Mercedes-Benz", "BMW", "Audi", "Jaguar"],
+    "answer": "Mercedes-Benz",
+    "image": null
+  },
+  {
+    "id": 9,
+    "quizId": 5,
+    "question": "Which brand created the Continental GT?",
+    "options": ["Bentley", "Rolls-Royce", "Aston Martin", "Jaguar"],
+    "answer": "Bentley",
+    "image": null
+  },
+  {
+    "id": 10,
+    "quizId": 5,
+    "question": "Which manufacturer produces the Impreza?",
+    "options": ["Subaru", "Toyota", "Mazda", "Nissan"],
+    "answer": "Subaru",
+    "image": null
+  },
+  {
+    "id": 11,
+    "quizId": 6,
+    "question": "Koenigsegg is a Swedish car manufacturer.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 12,
+    "quizId": 6,
+    "question": "Pagani is owned by Ferrari.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 13,
+    "quizId": 6,
+    "question": "Bugatti was originally founded in Germany.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 14,
+    "quizId": 6,
+    "question": "Alfa Romeo is part of the Stellantis group.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 15,
+    "quizId": 6,
+    "question": "Lotus is currently owned by a Chinese automotive group.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 16,
+    "quizId": 1,
+    "question": "Which car does Dominic Toretto famously drive in the first Fast & Furious movie?",
+    "options": ["1970 Dodge Charger", "Toyota Supra", "Mazda RX-7", "Chevy Camaro"],
+    "answer": "1970 Dodge Charger",
+    "image": null
+  },
+  {
+    "id": 17,
+    "quizId": 1,
+    "question": "In 'Cars' (2006), what type of car is Lightning McQueen?",
+    "options": ["Stock car", "Formula 1 car", "Muscle car", "Rally car"],
+    "answer": "Stock car",
+    "image": null
+  },
+  {
+    "id": 18,
+    "quizId": 1,
+    "question": "Which car is featured as Bumblebee in the Transformers films?",
+    "options": ["Chevrolet Camaro", "Ford Mustang", "Dodge Challenger", "Nissan GT-R"],
+    "answer": "Chevrolet Camaro",
+    "image": null
+  },
+  {
+    "id": 19,
+    "quizId": 1,
+    "question": "In 'Back to the Future', what car is used as the time machine?",
+    "options": ["DeLorean DMC-12", "Ford Thunderbird", "Chevy Corvette", "Pontiac Firebird"],
+    "answer": "DeLorean DMC-12",
+    "image": null
+  },
+  {
+    "id": 20,
+    "quizId": 1,
+    "question": "Which movie features a Mini Cooper heist scene?",
+    "options": ["The Italian Job", "Gone in 60 Seconds", "Baby Driver", "Ronin"],
+    "answer": "The Italian Job",
+    "image": null
+  },
+  {
+    "id": 21,
+    "quizId": 2,
+    "question": "In 'Fast Five', which car does Brian race Dom with at the end?",
+    "options": ["Nissan GT-R", "Toyota Supra", "Dodge Charger", "Ford GT"],
+    "answer": "Nissan GT-R",
+    "image": null
+  },
+  {
+    "id": 22,
+    "quizId": 2,
+    "question": "Which James Bond film features the Aston Martin DB5's return?",
+    "options": ["Skyfall", "Casino Royale", "Spectre", "GoldenEye"],
+    "answer": "Skyfall",
+    "image": null
+  },
+  {
+    "id": 23,
+    "quizId": 2,
+    "question": "In 'Gone in 60 Seconds', what is the nickname of the 1967 Shelby GT500?",
+    "options": ["Eleanor", "Angel", "Bullet", "Silver Ghost"],
+    "answer": "Eleanor",
+    "image": null
+  },
+  {
+    "id": 24,
+    "quizId": 2,
+    "question": "Which movie features a high-speed chase through San Francisco with a Ford Mustang?",
+    "options": ["Bullitt", "Heat", "The Rock", "Drive"],
+    "answer": "Bullitt",
+    "image": null
+  },
+  {
+    "id": 25,
+    "quizId": 2,
+    "question": "In 'Cars 3', who becomes Lightning McQueen's new trainer?",
+    "options": ["Cruz Ramirez", "Doc Hudson", "Jackson Storm", "Sally Carrera"],
+    "answer": "Cruz Ramirez",
+    "image": null
+  },
+  {
+    "id": 26,
+    "quizId": 3,
+    "question": "The Supra used in the first Fast & Furious movie was originally orange.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 27,
+    "quizId": 3,
+    "question": "The Batmobile in 'The Dark Knight' trilogy is called the Tumbler.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 28,
+    "quizId": 3,
+    "question": "The movie 'Rush' focuses on the rivalry between Senna and Prost.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 29,
+    "quizId": 3,
+    "question": "In 'Mad Max: Fury Road', Max drives a modified Ford Falcon XB.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 30,
+    "quizId": 3,
+    "question": "The main car in 'Baby Driver' is a Subaru WRX STI.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 31,
+    "quizId": 10,
+    "question": "Which country hosts the Monaco Grand Prix?",
+    "options": ["Monaco", "France", "Italy", "Spain"],
+    "answer": "Monaco",
+    "image": null
+  },
+  {
+    "id": 32,
+    "quizId": 10,
+    "question": "Which motorsport series features the car known as the 'stock car'?",
+    "options": ["NASCAR", "Formula 1", "IndyCar", "WRC"],
+    "answer": "NASCAR",
+    "image": null
+  },
+  {
+    "id": 33,
+    "quizId": 10,
+    "question": "Which driver is known as 'The Doctor' in MotoGP?",
+    "options": ["Valentino Rossi", "Marc Márquez", "Jorge Lorenzo", "Casey Stoner"],
+    "answer": "Valentino Rossi",
+    "image": null
+  },
+  {
+    "id": 34,
+    "quizId": 10,
+    "question": "Which race is famously called 'The Greatest Spectacle in Racing'?",
+    "options": ["Indy 500", "Le Mans 24h", "Daytona 500", "Monaco GP"],
+    "answer": "Indy 500",
+    "image": null
+  },
+  {
+    "id": 35,
+    "quizId": 10,
+    "question": "Which racing series uses rally cars on mixed surfaces?",
+    "options": ["WRC", "Formula E", "NASCAR", "IndyCar"],
+    "answer": "WRC",
+    "image": null
+  },
+  {
+    "id": 36,
+    "quizId": 11,
+    "question": "Which team did Michael Schumacher win most of his championships with?",
+    "options": ["Ferrari", "Benetton", "Mercedes", "McLaren"],
+    "answer": "Ferrari",
+    "image": null
+  },
+  {
+    "id": 37,
+    "quizId": 11,
+    "question": "Which circuit is known for the famous 'Eau Rouge' corner?",
+    "options": ["Spa-Francorchamps", "Silverstone", "Monza", "Suzuka"],
+    "answer": "Spa-Francorchamps",
+    "image": null
+  },
+  {
+    "id": 38,
+    "quizId": 11,
+    "question": "Which endurance race lasts for 24 hours?",
+    "options": ["Le Mans", "Daytona", "Bathurst", "Nürburgring Sprint"],
+    "answer": "Le Mans",
+    "image": null
+  },
+  {
+    "id": 39,
+    "quizId": 11,
+    "question": "Which driver won the 2016 Formula 1 World Championship?",
+    "options": ["Nico Rosberg", "Lewis Hamilton", "Sebastian Vettel", "Kimi Räikkönen"],
+    "answer": "Nico Rosberg",
+    "image": null
+  },
+  {
+    "id": 40,
+    "quizId": 11,
+    "question": "Which racing series features electric single‑seater cars?",
+    "options": ["Formula E", "IndyCar", "Super GT", "DTM"],
+    "answer": "Formula E",
+    "image": null
+  },
+    {
+    "id": 41,
+    "quizId": 12,
+    "question": "The Nürburgring Nordschleife is over 20 km long.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 42,
+    "quizId": 12,
+    "question": "Lewis Hamilton has won more than 10 Formula 1 World Championships.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 43,
+    "quizId": 12,
+    "question": "The Dakar Rally originally took place entirely in South America.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 44,
+    "quizId": 12,
+    "question": "IndyCar races exclusively on oval tracks.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 45,
+    "quizId": 12,
+    "question": "The 24 Hours of Nürburgring is held on the same layout used for Formula 1.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 46,
+    "quizId": 13,
+    "question": "Which company is credited with creating the first mass‑produced car?",
+    "options": ["Ford", "Mercedes-Benz", "Peugeot", "Fiat"],
+    "answer": "Ford",
+    "image": null
+  },
+  {
+    "id": 47,
+    "quizId": 13,
+    "question": "Which brand produced the first-ever Mini in 1959?",
+    "options": ["BMC", "Ford", "Volkswagen", "Renault"],
+    "answer": "BMC",
+    "image": null
+  },
+  {
+    "id": 48,
+    "quizId": 13,
+    "question": "Which company created the first hybrid mass‑market car, the Prius?",
+    "options": ["Toyota", "Honda", "Nissan", "Hyundai"],
+    "answer": "Toyota",
+    "image": null
+  },
+  {
+    "id": 49,
+    "quizId": 13,
+    "question": "Which country invented the modern internal combustion engine?",
+    "options": ["Germany", "USA", "France", "Italy"],
+    "answer": "Germany",
+    "image": null
+  },
+  {
+    "id": 50,
+    "quizId": 13,
+    "question": "Which company introduced the first Jeep during World War II?",
+    "options": ["Willys-Overland", "Ford", "Chevrolet", "Dodge"],
+    "answer": "Willys-Overland",
+    "image": null
+  },
+  {
+    "id": 51,
+    "quizId": 14,
+    "question": "Which car was the first to break the 200 mph barrier?",
+    "options": ["Ferrari F40", "Porsche 959", "Lamborghini Countach", "Bugatti EB110"],
+    "answer": "Ferrari F40",
+    "image": null
+  },
+  {
+    "id": 52,
+    "quizId": 14,
+    "question": "Which manufacturer created the first turbocharged production car?",
+    "options": ["BMW", "Saab", "Porsche", "Volvo"],
+    "answer": "Saab",
+    "image": null
+  },
+  {
+    "id": 53,
+    "quizId": 14,
+    "question": "Which company introduced the first modern electric car to achieve mass adoption?",
+    "options": ["Tesla", "Nissan", "Chevrolet", "BMW"],
+    "answer": "Nissan",
+    "image": null
+  },
+  {
+    "id": 54,
+    "quizId": 14,
+    "question": "Which car was the first to feature anti‑lock braking (ABS) as standard?",
+    "options": ["Mercedes-Benz S-Class", "BMW 7 Series", "Audi 100", "Volvo 240"],
+    "answer": "Mercedes-Benz S-Class",
+    "image": null
+  },
+  {
+    "id": 55,
+    "quizId": 14,
+    "question": "Which company created the first successful mass‑market diesel car?",
+    "options": ["Mercedes-Benz", "Volkswagen", "Peugeot", "Citroën"],
+    "answer": "Mercedes-Benz",
+    "image": null
+  },
+  {
+    "id": 56,
+    "quizId": 15,
+    "question": "The Ford Model T was introduced in 1908.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 57,
+    "quizId": 15,
+    "question": "The first Porsche car was produced before World War II.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 58,
+    "quizId": 15,
+    "question": "The Lamborghini brand was originally founded to build motorcycles.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 59,
+    "quizId": 15,
+    "question": "The first Ferrari road car was released in the 1930s.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 60,
+    "quizId": 15,
+    "question": "The Citroën DS was the first production car with hydropneumatic suspension.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 61,
+    "quizId": 13,
+    "question": "What type of car is typically known for having a retractable roof?",
+    "options": ["Convertible", "Hatchback", "Sedan", "Coupe"],
+    "answer": "Convertible",
+    "image": null
+  },
+  {
+    "id": 62,
+    "quizId": 13,
+    "question": "Which fuel type is most commonly used in modern passenger cars?",
+    "options": ["Petrol", "Diesel", "Hydrogen", "Ethanol"],
+    "answer": "Petrol",
+    "image": null
+  },
+  {
+    "id": 63,
+    "quizId": 13,
+    "question": "Which part of the car is responsible for stopping the wheels?",
+    "options": ["Brakes", "Suspension", "Radiator", "Alternator"],
+    "answer": "Brakes",
+    "image": null
+  },
+  {
+    "id": 64,
+    "quizId": 13,
+    "question": "Which body style typically has four doors and a separate trunk?",
+    "options": ["Sedan", "Coupe", "SUV", "Hatchback"],
+    "answer": "Sedan",
+    "image": null
+  },
+  {
+    "id": 65,
+    "quizId": 13,
+    "question": "Which type of car is designed primarily for off‑road use?",
+    "options": ["SUV", "Convertible", "Coupe", "Minivan"],
+    "answer": "SUV",
+    "image": null
+  },
+  {
+    "id": 66,
+    "quizId": 14,
+    "question": "Which component transfers power from the engine to the wheels?",
+    "options": ["Transmission", "Radiator", "Exhaust", "Fuel Pump"],
+    "answer": "Transmission",
+    "image": null
+  },
+  {
+    "id": 67,
+    "quizId": 14,
+    "question": "Which type of drivetrain powers all four wheels?",
+    "options": ["AWD", "FWD", "RWD", "2WD"],
+    "answer": "AWD",
+    "image": null
+  },
+  {
+    "id": 68,
+    "quizId": 14,
+    "question": "Which part of the car helps reduce harmful emissions?",
+    "options": ["Catalytic converter", "Turbocharger", "Alternator", "Oil filter"],
+    "answer": "Catalytic converter",
+    "image": null
+  },
+  {
+    "id": 69,
+    "quizId": 14,
+    "question": "Which term describes the distance a car can travel on a full tank?",
+    "options": ["Range", "Torque", "Displacement", "Drag"],
+    "answer": "Range",
+    "image": null
+  },
+  {
+    "id": 70,
+    "quizId": 14,
+    "question": "Which type of car typically has the highest seating capacity?",
+    "options": ["Minivan", "Coupe", "Roadster", "Pickup"],
+    "answer": "Minivan",
+    "image": null
+  },
+  {
+    "id": 71,
+    "quizId": 15,
+    "question": "All cars with automatic transmissions have a clutch pedal.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 72,
+    "quizId": 15,
+    "question": "A turbocharger increases engine power by forcing more air into the engine.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 73,
+    "quizId": 15,
+    "question": "Hybrid cars cannot operate using electric power alone.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 74,
+    "quizId": 15,
+    "question": "A car’s VIN number is identical for all vehicles of the same model.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 75,
+    "quizId": 15,
+    "question": "A limited‑slip differential helps prevent wheel spin during acceleration.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 76,
+    "quizId": 13,
+    "question": "What does ABS stand for in automotive technology?",
+    "options": ["Anti-lock Braking System", "Automatic Brake Support", "Active Balance System", "Advanced Braking Setup"],
+    "answer": "Anti-lock Braking System",
+    "image": null
+  },
+  {
+    "id": 77,
+    "quizId": 13,
+    "question": "What type of motor is commonly used in electric vehicles?",
+    "options": ["Electric motor", "Diesel engine", "Rotary engine", "Hydraulic motor"],
+    "answer": "Electric motor",
+    "image": null
+  },
+  {
+    "id": 78,
+    "quizId": 13,
+    "question": "What does ECU stand for?",
+    "options": ["Engine Control Unit", "Electronic Cooling Unit", "Energy Conversion Unit", "Engine Calibration Utility"],
+    "answer": "Engine Control Unit",
+    "image": null
+  },
+  {
+    "id": 79,
+    "quizId": 13,
+    "question": "Which component stores electrical energy in a hybrid car?",
+    "options": ["Battery", "Alternator", "Starter motor", "Fuel pump"],
+    "answer": "Battery",
+    "image": null
+  },
+  {
+    "id": 80,
+    "quizId": 13,
+    "question": "Which system helps maintain traction during acceleration?",
+    "options": ["Traction control", "ABS", "Cruise control", "Lane assist"],
+    "answer": "Traction control",
+    "image": null
+  },
+    {
+    "id": 81,
+    "quizId": 14,
+    "question": "Which technology allows a car to maintain a set distance from the vehicle ahead?",
+    "options": ["Adaptive cruise control", "Lane departure warning", "Blind spot monitoring", "Traction control"],
+    "answer": "Adaptive cruise control",
+    "image": null
+  },
+  {
+    "id": 82,
+    "quizId": 14,
+    "question": "Which component converts exhaust gases into less harmful emissions?",
+    "options": ["Catalytic converter", "Turbocharger", "Intercooler", "Fuel injector"],
+    "answer": "Catalytic converter",
+    "image": null
+  },
+  {
+    "id": 83,
+    "quizId": 14,
+    "question": "Which type of transmission has no fixed gear ratios?",
+    "options": ["CVT", "Manual", "Dual-clutch", "Automatic"],
+    "answer": "CVT",
+    "image": null
+  },
+  {
+    "id": 84,
+    "quizId": 14,
+    "question": "Which system uses radar or cameras to prevent collisions?",
+    "options": ["Automatic emergency braking", "Cruise control", "ABS", "Traction control"],
+    "answer": "Automatic emergency braking",
+    "image": null
+  },
+  {
+    "id": 85,
+    "quizId": 14,
+    "question": "Which part cools the air entering a turbocharged engine?",
+    "options": ["Intercooler", "Radiator", "Oil cooler", "Air filter"],
+    "answer": "Intercooler",
+    "image": null
+  },
+  {
+    "id": 86,
+    "quizId": 15,
+    "question": "Regenerative braking converts kinetic energy into electrical energy.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 87,
+    "quizId": 15,
+    "question": "A dual‑clutch transmission uses a single clutch to shift gears.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 88,
+    "quizId": 15,
+    "question": "Hydrogen fuel cell vehicles emit only water vapor.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": null
+  },
+  {
+    "id": 89,
+    "quizId": 15,
+    "question": "A car’s OBD system is used for entertainment features.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 90,
+    "quizId": 15,
+    "question": "Direct injection engines spray fuel into the intake manifold rather than the cylinder.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": null
+  },
+  {
+    "id": 91,
+    "quizId": 7,
+    "question": "Which brand uses this logo?",
+    "options": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
+    "answer": "Ferrari",
+    "image": "/images/logos/ferrari.png"
+  },
+  {
+    "id": 92,
+    "quizId": 7,
+    "question": "Which brand uses this logo?",
+    "options": ["Nissan", "Toyota", "Honda", "Mazda"],
+    "answer": "Nissan",
+    "image": "/images/logos/nissan.png"
+  },
+  {
+    "id": 93,
+    "quizId": 7,
+    "question": "Which brand uses this logo?",
+    "options": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
+    "answer": "BMW",
+    "image": "/images/logos/bmw.png"
+  },
+  {
+    "id": 94,
+    "quizId": 7,
+    "question": "Which brand uses this logo?",
+    "options": ["Subaru", "Mitsubishi", "Suzuki", "Isuzu"],
+    "answer": "Subaru",
+    "image": "/images/logos/subaru.png"
+  },
+  {
+    "id": 95,
+    "quizId": 7,
+    "question": "Which brand uses this logo?",
+    "options": ["Porsche", "Ferrari", "Lamborghini", "Aston Martin"],
+    "answer": "Porsche",
+    "image": "/images/logos/porsche.png"
+  },
+  {
+    "id": 96,
+    "quizId": 8,
+    "question": "Which brand uses a three‑pointed star as its logo?",
+    "options": ["Mercedes-Benz", "Mitsubishi", "Chrysler", "Citroën"],
+    "answer": "Mercedes-Benz",
+    "image": null
+  },
+  {
+    "id": 97,
+    "quizId": 8,
+    "question": "Which brand’s logo features four interlocking rings?",
+    "options": ["Audi", "Volkswagen", "Opel", "Skoda"],
+    "answer": "Audi",
+    "image": null
+  },
+  {
+    "id": 98,
+    "quizId": 8,
+    "question": "Which brand uses a bull as its emblem?",
+    "options": ["Lamborghini", "Ferrari", "Maserati", "Pagani"],
+    "answer": "Lamborghini",
+    "image": null
+  },
+  {
+    "id": 99,
+    "quizId": 8,
+    "question": "Which brand’s logo features a trident?",
+    "options": ["Maserati", "Pagani", "Ferrari", "Alfa Romeo"],
+    "answer": "Maserati",
+    "image": null
+  },
+  {
+    "id": 100,
+    "quizId": 8,
+    "question": "Which brand uses a winged logo?",
+    "options": ["Aston Martin", "Bentley", "Rolls-Royce", "Jaguar"],
+    "answer": "Aston Martin",
+    "image": null
+  },
+  {
+    "id": 101,
+    "quizId": 9,
+    "question": "This logo belongs to Tesla.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": "/images/logos/tesla.png"
+  },
+  {
+    "id": 102,
+    "quizId": 9,
+    "question": "This logo belongs to Bugatti.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": "/images/logos/koenigsegg.png"
+  },
+  {
+    "id": 103,
+    "quizId": 9,
+    "question": "This logo belongs to Jaguar.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": "/images/logos/jaguar.png"
+  },
+  {
+    "id": 104,
+    "quizId": 9,
+    "question": "This logo belongs to Alfa Romeo.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": "/images/logos/alfaromeo.png"
+  },
+  {
+    "id": 105,
+    "quizId": 9,
+    "question": "This logo belongs to McLaren.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": "/images/logos/astonmartin.png"
+  }
+]
+
+
