@@ -12,7 +12,7 @@ Leader.init(
       primaryKey: true,
       autoIncrement: true,
     },   
-    userID: {
+    userId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
@@ -24,7 +24,7 @@ Leader.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    quizID: {
+    quizId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {

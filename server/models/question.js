@@ -12,7 +12,7 @@ Question.init(
       primaryKey: true,
       autoIncrement: true
     },
-    quizID: {
+    quizId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
