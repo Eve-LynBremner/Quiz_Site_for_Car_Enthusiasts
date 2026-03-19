@@ -5,7 +5,7 @@ const sequelize = require("../config/connection");
 class Quiz extends Model {}
 
 
-Question.init(
+Quiz.init(
     {
         id: {
             type: DataTypes.INTEGER,

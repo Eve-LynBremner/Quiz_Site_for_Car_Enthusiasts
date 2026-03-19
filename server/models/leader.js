@@ -4,7 +4,7 @@ const sequelize = require("../config/connection");
 
 class Leader extends Model {}
 
-Category.init(
+Leader.init(
   {
     id: {
       type: DataTypes.INTEGER,

@@ -1,2 +1,2 @@
-drop database if exists lms_db;
-create database lms_db;
+drop database if exists mm_db;
+create database mm_db;
