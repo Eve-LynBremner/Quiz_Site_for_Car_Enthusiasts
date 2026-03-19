@@ -1,4 +1,5 @@
 import QuizQuestion from "./QuizQuestion";
+import { useState } from "react";
 const Quiz = () => {
   const questions = [
     {
@@ -38,15 +39,43 @@ const Quiz = () => {
       image: null,
     },
   ];
+
+  const [answers, setAnswers] = useState({});
+
+  const handleAnswerChange = (questionId, selectedOption) => {
+    setAnswers((prev) => ({
+      ...prev,
+      [questionId]: selectedOption,
+    }));
+  };
+
+  const handleSubmit = () => {
+    let score = 0;
+
+    questions.forEach((q) => {
+      if (answers[q.id] === q.answer) {
+        score++;
+      }
+    });
+
+    console.log(`Score: ${score}/${questions.length}`);
+  };
+
   return (
     <div>
       <h2>Quiz</h2>
       <div className="flex flex-col gap-4">
         {questions.map((question) => (
-          <QuizQuestion key={question.id} question={question} />
+          <QuizQuestion
+            key={question.id}
+            question={question}
+            onAnswerChange={handleAnswerChange}
+          />
         ))}
 
-        <button className="bg-green-500">Submit</button>
+        <button onClick={handleSubmit} className="bg-green-500">
+          Submit
+        </button>
       </div>
     </div>
   );
