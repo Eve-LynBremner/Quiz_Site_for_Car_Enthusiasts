@@ -1,32 +1,31 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-import { useSession } from '../contexts/SessionContext';
+import { useSession } from "../contexts/SessionContext";
 
 const Header = () => {
   const navigate = useNavigate();
-  const token = localStorage.getItem('authToken');
+  const token = localStorage.getItem("authToken");
 
   const { user } = useSession();
 
   const handleLogout = () => {
-    localStorage.removeItem('authToken');
-    navigate('/login');
+    localStorage.removeItem("authToken");
+    navigate("/login");
   };
 
-
-  const wordCase = (word) => {  
+  const wordCase = (word) => {
     if (word === undefined) {
-      return '';
+      return "";
     }
     return word.charAt(0).toUpperCase() + word.slice(1);
-  }
+  };
 
   return (
     <header>
-      <h1>LMS 3000</h1>
+      <h1>Motor Mind</h1>
       <nav>
-        <Link to="/">All Courses</Link>
+        <Link to="/">Home</Link>
         {token ? (
           <>
             <Link to="/profile">{wordCase(user.username)}'s Courses</Link>
