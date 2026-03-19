@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "quizName": "Movies - Rookie",
+      "difficulty": "easy",
+      "category": "Movies"
+    },
+    {
+      "id": 2,
+      "quizName": "Movies - Racer",
+      "difficulty": "medium",
+      "category": "Movies"
+    },
+    {
+      "id": 3,
+      "quizName": "Movies - Pro",
+      "difficulty": "hard",
+      "category": "Movies"
+    },
+    {
+      "id": 4,
+      "quizName": "Brands - Rookie",
+      "difficulty": "easy",
+      "category": "Brands"
+    },
+    {
+      "id": 5,
+      "quizName": "Brands - Racer",
+      "difficulty": "medium",
+      "category": "Brands"
+    },
+    {
+      "id": 6,
+      "quizName": "Brands - Pro",
+      "difficulty": "hard",
+      "category": "Brands"
+    },
+    {
+      "id": 7,
+      "quizName": "Logos - Rookie",
+      "difficulty": "easy",
+      "category": "Logos"
+    },
+    {
+      "id": 8,
+      "quizName": "Logos - Racer",
+      "difficulty": "medium",
+      "category": "Logos"
+    },
+    {
+      "id": 9,
+      "quizName": "Logos - Pro",
+      "difficulty": "hard",
+      "category": "Logos"
+    },
+    {
+      "id": 10,
+      "quizName": "Racing - Rookie",
+      "difficulty": "easy",
+      "category": "Racing"
+    },
+    {
+      "id": 11,
+      "quizName": "Racing - Racer",
+      "difficulty": "medium",
+      "category": "Racing"
+    },
+    {
+      "id": 12,
+      "quizName": "Racing - Pro",
+      "difficulty": "hard",
+      "category": "Racing"
+    },
+    {
+      "id": 13,
+      "quizName": "General - Rookie",
+      "difficulty": "easy",
+      "category": "General"
+    },
+    {
+      "id": 14,
+      "quizName": "General - Racer",
+      "difficulty": "medium",
+      "category": "General"
+    },
+    {
+      "id": 15,
+      "quizName": "General - Pro",
+      "difficulty": "hard",
+      "category": "General"
+    }
+] 
