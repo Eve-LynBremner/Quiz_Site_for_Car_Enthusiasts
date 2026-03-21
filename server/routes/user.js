@@ -5,7 +5,8 @@ const { signToken, authMiddleware } = require("../utils/auth");
 // Get current authenticated user
 router.get("/me", authMiddleware, async (req, res) => {
   try {
-    const user = await User.getOne(req.user.id);
+    //getOne was not working
+    const user = await User.findByPk(req.user.id); // getOne(req.user.id);
     
     if (!user) return res.status(401).json({ message: "Token expired" });
     return res.status(200).json({ user });
@@ -18,7 +19,8 @@ router.get("/me", authMiddleware, async (req, res) => {
 router.get("/:id", async (req, res) => {
   console.log("looking for user", req.params.id);
   try {
-    const userData = await User.getOne(req.params.id);
+    //getOne was not working
+    const userData = await User.findByPk(req.params.id); // getOne(req.params.id);
 
     if (!userData) {
       res.status(404).json({ message: "No User found with this id" });
