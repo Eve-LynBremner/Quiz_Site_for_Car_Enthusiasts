@@ -7,11 +7,11 @@ const { Leader } = require("../models/index");
 // Route to add new entry to leaderboard
 app.post("/", async (req, res) => {
   try {
-    const { username, score, timeTakenSeconds } = req.body;
-    if (!username || !score || !timeTakenSeconds) {
+    const { userId, score, quizId, timeTakenSeconds } = req.body;
+    if (!userId || !score || !quizId || !timeTakenSeconds) {
       return res.status(400).json({ message: "Missing required fields" });
     }
-    const entry = await Leader.create({ username, score, timeTakenSeconds, dateAchieved: new Date()});
+    const entry = await Leader.create({ userId, score, quizId, timeTakenSeconds, dateAchieved: new Date()});
     res.status(201).json(entry);
   } catch (error) {
     console.log(error);
