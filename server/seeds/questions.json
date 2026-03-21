@@ -725,7 +725,7 @@
     "question": "Which brand uses this logo?",
     "options": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
     "answer": "Ferrari",
-    "image": "/images/logos/ferrari.png"
+    "image": "/images/ferrari.jpg"
   },
   {
     "id": 92,
@@ -733,7 +733,7 @@
     "question": "Which brand uses this logo?",
     "options": ["Nissan", "Toyota", "Honda", "Mazda"],
     "answer": "Nissan",
-    "image": "/images/logos/nissan.png"
+    "image": "/images/logos/nissan.jpg"
   },
   {
     "id": 93,
@@ -741,7 +741,7 @@
     "question": "Which brand uses this logo?",
     "options": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
     "answer": "BMW",
-    "image": "/images/logos/bmw.png"
+    "image": "/images/logos/bmw.jpg"
   },
   {
     "id": 94,
@@ -749,7 +749,7 @@
     "question": "Which brand uses this logo?",
     "options": ["Subaru", "Mitsubishi", "Suzuki", "Isuzu"],
     "answer": "Subaru",
-    "image": "/images/logos/subaru.png"
+    "image": "/images/logos/subaru.jpg"
   },
   {
     "id": 95,
@@ -757,7 +757,7 @@
     "question": "Which brand uses this logo?",
     "options": ["Porsche", "Ferrari", "Lamborghini", "Aston Martin"],
     "answer": "Porsche",
-    "image": "/images/logos/porsche.png"
+    "image": "/images/logos/porsche.jpg"
   },
   {
     "id": 96,
@@ -805,7 +805,7 @@
     "question": "This logo belongs to Tesla.",
     "options": ["True", "False"],
     "answer": "True",
-    "image": "/images/logos/tesla.png"
+    "image": "/images/logos/tesla.jpg"
   },
   {
     "id": 102,
@@ -813,7 +813,7 @@
     "question": "This logo belongs to Bugatti.",
     "options": ["True", "False"],
     "answer": "False",
-    "image": "/images/logos/koenigsegg.png"
+    "image": "/images/logos/koenigsegg.jpg"
   },
   {
     "id": 103,
@@ -821,7 +821,7 @@
     "question": "This logo belongs to Jaguar.",
     "options": ["True", "False"],
     "answer": "True",
-    "image": "/images/logos/jaguar.png"
+    "image": "/images/logos/jaguar.jpg"
   },
   {
     "id": 104,
@@ -829,7 +829,7 @@
     "question": "This logo belongs to Alfa Romeo.",
     "options": ["True", "False"],
     "answer": "True",
-    "image": "/images/logos/alfaromeo.png"
+    "image": "/images/logos/alfaromeo.jpg"
   },
   {
     "id": 105,
@@ -837,7 +837,7 @@
     "question": "This logo belongs to McLaren.",
     "options": ["True", "False"],
     "answer": "False",
-    "image": "/images/logos/astonmartin.png"
+    "image": "/images/logos/astonmartin.jpg"
   }
 ]
 
