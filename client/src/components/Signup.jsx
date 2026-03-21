@@ -36,9 +36,10 @@ const Signup = () => {
     if (!validatePassword()) {
         return;
     }
-
+    
+    //do not need to post password2
     try {
-      const response = await api.post('/api/users', { username: userName, email: email, password: password, password2: password2 });
+      const response = await api.post('/api/users', { username: userName, email: email, password: password }); //, password2: password2 }); 
       const data = response.data;
       // Update the user in the context
       setUser({
