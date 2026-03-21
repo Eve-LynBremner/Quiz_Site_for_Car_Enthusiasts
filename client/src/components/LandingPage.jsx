@@ -4,7 +4,7 @@ import { SplitText } from "gsap/all";
 import gsap from "gsap";
 import { useMediaQuery } from "react-responsive";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import heroVideo from "../assets/output2.mp4";
+import heroVideo from "../assets/videos/output2.mp4";
 import { Link, useNavigate } from "react-router-dom";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
