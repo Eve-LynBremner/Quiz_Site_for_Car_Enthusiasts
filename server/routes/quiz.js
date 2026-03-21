@@ -4,18 +4,20 @@ const app = require("express").Router();
 // import the models
 const { Quiz } = require("../models/index");
 
-// Route to get quiz by category and difficulty
+// Route to get all quizzes
 app.get("/", async (req, res) => {
   try {
-    const questions = await Question.findAll();
+    const quizzes = await Quiz.findAll();
 
-    res.json(questions);
+    res.json(quizzes);
   } catch (error) {
     res.status(500).json({ error: "Error retrieving questions", error });
   }
 });
 
-app.get("/:id", async (req, res) => {
+
+// Route to get quiz by category and difficulty
+app.get("/by/", async (req, res) => {
   try {
     const { category, difficulty } = req.query;
 
