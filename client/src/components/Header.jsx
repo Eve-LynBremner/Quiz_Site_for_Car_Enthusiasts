@@ -29,6 +29,7 @@ const Header = () => {
         {token ? (
           <>
             <Link to="/quizlist">Quizlist</Link>
+            <Link to="/leaderboard">Leaderboard</Link>
             <button onClick={handleLogout}>Logout</button>
           </>
         ) : (

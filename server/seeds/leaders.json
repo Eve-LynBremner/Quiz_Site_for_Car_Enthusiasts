@@ -1,26 +1,20 @@
 [
     {
-      "rank": 1,
       "userId": 1,
       "score": 980,
       "quizId": 4,
-      "timeTakenSeconds": 42,
       "dateAchieved": "2026-03-17T18:40:00Z"
     },
     {
-      "rank": 2,
       "userId": 10,
       "score": 920,
       "quizId": 3,
-      "timeTakenSeconds": 55,
       "dateAchieved": "2026-03-17T18:30:00Z"
     },
     {
-      "rank": 3,
       "userId": 5,
       "score": 900,
       "quizId": 6,
-      "timeTakenSeconds": 60,
       "dateAchieved": "2026-03-17T18:20:00Z"
     }
 ]
