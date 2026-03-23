@@ -8,6 +8,7 @@ import CourseDetails from "./components/CourseDetails";
 import SubscribedCourses from "./components/SubscribedCourses";
 import Quiz from "./components/Quiz";
 import LandingPage from "./components/LandingPage";
+import QuizList from "./components/QuizList";
 
 import { SessionProvider } from "./contexts/SessionContext";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/quizlist" element={<QuizList />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
       </SessionProvider>

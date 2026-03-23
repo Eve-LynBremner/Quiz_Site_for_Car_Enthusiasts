@@ -29,6 +29,9 @@ const Header = () => {
         {token ? (
           <>
             <Link to="/profile">{wordCase(user.username)}'s Courses</Link>
+
+            <Link to="/quiz">Quiz</Link>
+            <Link to="/quizlist">Quizlist</Link>
             <button onClick={handleLogout}>Logout</button>
           </>
         ) : (
