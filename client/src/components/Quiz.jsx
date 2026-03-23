@@ -49,7 +49,7 @@ const Quiz = () => {
       const response = await api.post("/api/leaders", {
         score: score,
         userId: user.id,
-        quizId: quizid,
+        quizId: Number(quizid),
       });
       const data = response.data;
       // Update the user in the context

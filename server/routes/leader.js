@@ -8,7 +8,8 @@ const { Leader } = require("../models/index");
 app.post("/", async (req, res) => {
   try {
     const { userId, score, quizId } = req.body;
-    if (!userId || !score || !quizId ) {
+    if (!userId || score === undefined || !quizId ) {
+      console.log(req.body);
       return res.status(400).json({ message: "Missing required fields" });
     }
     const entry = await Leader.create({ userId, score, quizId, dateAchieved: new Date()});

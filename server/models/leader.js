@@ -32,10 +32,6 @@ Leader.init(
         key: "id",
       },
     },
-    timeTakenSeconds: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     dateAchieved: {
       type: DataTypes.DATE,
       allowNull: false,
