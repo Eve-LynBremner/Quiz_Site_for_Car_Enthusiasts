@@ -2,7 +2,11 @@ import QuizQuestion from "./QuizQuestion";
 import api from "../api";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import toast from "react-hot-toast";
+
+import { useSession } from "../contexts/SessionContext";
 const Quiz = () => {
+  const { user } = useSession();
   const [chosenQuiz, setChosenQuiz] = useState([]);
   const { quizid } = useParams();
 
@@ -29,7 +33,8 @@ const Quiz = () => {
     }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     let score = 0;
 
     chosenQuiz.forEach((q) => {
@@ -39,6 +44,21 @@ const Quiz = () => {
     });
 
     console.log(`Score: ${score}/${chosenQuiz.length}`);
+
+    try {
+      const response = await api.post("/api/leaders", {
+        score: score,
+        userId: user.id,
+        quizId: quizid,
+      });
+      const data = response.data;
+      // Update the user in the context
+
+      toast.success(`Score: ${score}/${chosenQuiz.length}`);
+    } catch (error) {
+      console.error("Signup failed", error);
+      toast.error("Quiz Submiy Failed");
+    }
   };
 
   return (

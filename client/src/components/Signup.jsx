@@ -49,10 +49,12 @@ const Signup = () => {
         username: data.user.username,
         id: data.user.id,
       });
-
       navigate("/");
+
+      toast.success("Signup Succesful");
     } catch (error) {
       console.error("Signup failed", error);
+      toast.error("Signup Failed");
     }
   };
 
