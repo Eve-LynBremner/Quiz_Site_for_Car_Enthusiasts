@@ -36,13 +36,13 @@ const Leaderboard = () => {
         </thead>
 
         <tbody>
-          {leaders.map((leaders, index) => (
+          {leaders.map((leaders) => (
             <tr key={leaders.id}>
               <td className="p-2">{leaders.rank}</td>
-              <td className="p-2">{leaders.userId}</td>
+              <td className="p-2">{leaders.user.username}</td>
               <td className="p-2">{leaders.score}</td>
-              <td className="p-2">{leaders.quizId}</td>
-              <td className="p-2">{leaders.dateAchieved}</td>
+              <td className="p-2">{leaders.quiz.quizName}</td>
+              <td className="p-2">{new Date(leaders.dateAchieved).toLocaleDateString()}</td>
             </tr>
           ))}
         </tbody>
