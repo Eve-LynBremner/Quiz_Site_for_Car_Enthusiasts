@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/profile" element={<SubscribedCourses />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/quiz/:quizid" element={<Quiz />} />
           <Route path="/quizlist" element={<QuizList />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>

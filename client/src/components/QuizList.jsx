@@ -24,7 +24,7 @@ const QuizList = () => {
   return (
     <div>
       <h2>All Courses</h2>
-      <div className="quiz-list">
+      <div className="quiz-list flex flex-wrap gap-2">
         {quizzes.map((quiz) => (
           <QuizCard key={quiz.id} quiz={quiz} />
         ))}
