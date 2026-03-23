@@ -20,12 +20,14 @@ const QuizCard = ({ quiz }) => {
           Course Title: {quiz.quizName}
         </div>
 
-        <div className="card-description">Course Title: {quiz.difficulty}</div>
+        <div className="card-description text-white">
+          Course Title: {quiz.difficulty}
+        </div>
 
         <div className="card-description">Course Title: {quiz.category}</div>
         <Link
           to={`/quiz/${quiz.id}`}
-          className="mt-4 inline-block px-4 py-2 text-white font-semibold rounded-md"
+          className="mt-4 inline-block px-4 py-2  font-semibold rounded-md bg-white text-black"
         >
           Try
         </Link>
