@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import api from '../api';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import api from "../api";
+import { useNavigate } from "react-router-dom";
 
-import { useSession } from '../contexts/SessionContext';
+import { useSession } from "../contexts/SessionContext";
 
 const defaultUser = {
-  email: 'jason@fl1.digital',
-  password: 'Letmein123!',
+  email: "jason@fl1.digital",
+  password: "Letmein123!",
 };
 
 const Login = () => {
@@ -19,26 +19,27 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await api.post('/api/users/login', { email: email, password: password });
+      const response = await api.post("/api/users/login", {
+        email: email,
+        password: password,
+      });
       const data = response.data;
 
-    
       // Update the user in the context
       setUser({
         username: data.user.username,
         id: data.user.id,
       });
 
-
-      localStorage.setItem('authToken', data.token);
-      navigate('/');
+      localStorage.setItem("authToken", data.token);
+      navigate("/");
     } catch (error) {
-      console.error('Login failed', error);
+      console.error("Login failed", error);
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="text-black">
       <h2>Login</h2>
       <input
         type="text"

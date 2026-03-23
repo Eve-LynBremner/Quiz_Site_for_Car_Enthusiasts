@@ -1,44 +1,24 @@
 import QuizQuestion from "./QuizQuestion";
-import { useState } from "react";
+import api from "../api";
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
 const Quiz = () => {
-  const questions = [
-    {
-      id: 1,
-      question: "Which company manufactures the Civic?",
-      options: ["Honda", "Toyota", "Nissan", "Mazda"],
-      answer: "Honda",
-      category: "Brands",
-      difficulty: "easy",
-      image: null,
-    },
-    {
-      id: 2,
-      question: "Which brand is known for the 911 sports car?",
-      options: ["Porsche", "Audi", "BMW", "Mercedes-Benz"],
-      answer: "Porsche",
-      category: "Brands",
-      difficulty: "easy",
-      image: null,
-    },
-    {
-      id: 3,
-      question: "Which company manufactures the Civic?",
-      options: ["Honda", "Toyota", "Nissan", "Mazda"],
-      answer: "Honda",
-      category: "Brands",
-      difficulty: "easy",
-      image: null,
-    },
-    {
-      id: 4,
-      question: "Which brand is known for the 911 sports car?",
-      options: ["Porsche", "Audi", "BMW", "Mercedes-Benz"],
-      answer: "Porsche",
-      category: "Brands",
-      difficulty: "easy",
-      image: null,
-    },
-  ];
+  const [chosenQuiz, setChosenQuiz] = useState([]);
+  const { quizid } = useParams();
+
+  useEffect(() => {
+    const fetchCourses = async () => {
+      try {
+        const response = await api.get(`/api/questions/${quizid}`);
+        console.log("chosenQuiz", response.data.questions);
+        setChosenQuiz(response.data.questions);
+      } catch (error) {
+        console.error("Failed to fetch chosenQuiz", error);
+      }
+    };
+
+    fetchCourses();
+  }, []);
 
   const [answers, setAnswers] = useState({});
 
@@ -52,20 +32,20 @@ const Quiz = () => {
   const handleSubmit = () => {
     let score = 0;
 
-    questions.forEach((q) => {
+    chosenQuiz.forEach((q) => {
       if (answers[q.id] === q.answer) {
         score++;
       }
     });
 
-    console.log(`Score: ${score}/${questions.length}`);
+    console.log(`Score: ${score}/${chosenQuiz.length}`);
   };
 
   return (
     <div>
       <h2>Quiz</h2>
-      <div className="flex flex-col gap-4">
-        {questions.map((question) => (
+      <div className="flex flex-col gap-4 text-white">
+        {chosenQuiz.map((question) => (
           <QuizQuestion
             key={question.id}
             question={question}
