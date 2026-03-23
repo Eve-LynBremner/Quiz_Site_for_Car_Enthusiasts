@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
 const QuizQuestion = ({ question, onAnswerChange }) => {
+  if (question.image) {
+    console.log(`Loading image for Q#${question.id}:`, question.image);
+  }
   return (
     <div className="card bg-gray-900">
       <div>Course Number: {question.id}</div>

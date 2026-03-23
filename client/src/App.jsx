@@ -9,12 +9,29 @@ import QuizList from "./components/QuizList";
 import Leaderboard from "./components/Leaderboard";
 
 import { SessionProvider } from "./contexts/SessionContext";
+import toast, { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
     <div>
       <SessionProvider>
         <Header />
+        <Toaster
+          toastOptions={{
+            success: {
+              style: {
+                background: "green",
+                color: "white",
+              },
+            },
+            error: {
+              style: {
+                background: "red",
+                color: "white",
+              },
+            },
+          }}
+        />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />

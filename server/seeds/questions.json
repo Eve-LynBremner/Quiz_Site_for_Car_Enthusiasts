@@ -123,7 +123,12 @@
     "id": 16,
     "quizId": 1,
     "question": "Which car does Dominic Toretto famously drive in the first Fast & Furious movie?",
-    "options": ["1970 Dodge Charger", "Toyota Supra", "Mazda RX-7", "Chevy Camaro"],
+    "options": [
+      "1970 Dodge Charger",
+      "Toyota Supra",
+      "Mazda RX-7",
+      "Chevy Camaro"
+    ],
     "answer": "1970 Dodge Charger",
     "image": null
   },
@@ -139,7 +144,12 @@
     "id": 18,
     "quizId": 1,
     "question": "Which car is featured as Bumblebee in the Transformers films?",
-    "options": ["Chevrolet Camaro", "Ford Mustang", "Dodge Challenger", "Nissan GT-R"],
+    "options": [
+      "Chevrolet Camaro",
+      "Ford Mustang",
+      "Dodge Challenger",
+      "Nissan GT-R"
+    ],
     "answer": "Chevrolet Camaro",
     "image": null
   },
@@ -147,7 +157,12 @@
     "id": 19,
     "quizId": 1,
     "question": "In 'Back to the Future', what car is used as the time machine?",
-    "options": ["DeLorean DMC-12", "Ford Thunderbird", "Chevy Corvette", "Pontiac Firebird"],
+    "options": [
+      "DeLorean DMC-12",
+      "Ford Thunderbird",
+      "Chevy Corvette",
+      "Pontiac Firebird"
+    ],
     "answer": "DeLorean DMC-12",
     "image": null
   },
@@ -155,7 +170,12 @@
     "id": 20,
     "quizId": 1,
     "question": "Which movie features a Mini Cooper heist scene?",
-    "options": ["The Italian Job", "Gone in 60 Seconds", "Baby Driver", "Ronin"],
+    "options": [
+      "The Italian Job",
+      "Gone in 60 Seconds",
+      "Baby Driver",
+      "Ronin"
+    ],
     "answer": "The Italian Job",
     "image": null
   },
@@ -259,7 +279,12 @@
     "id": 33,
     "quizId": 10,
     "question": "Which driver is known as 'The Doctor' in MotoGP?",
-    "options": ["Valentino Rossi", "Marc Márquez", "Jorge Lorenzo", "Casey Stoner"],
+    "options": [
+      "Valentino Rossi",
+      "Marc Márquez",
+      "Jorge Lorenzo",
+      "Casey Stoner"
+    ],
     "answer": "Valentino Rossi",
     "image": null
   },
@@ -307,7 +332,12 @@
     "id": 39,
     "quizId": 11,
     "question": "Which driver won the 2016 Formula 1 World Championship?",
-    "options": ["Nico Rosberg", "Lewis Hamilton", "Sebastian Vettel", "Kimi Räikkönen"],
+    "options": [
+      "Nico Rosberg",
+      "Lewis Hamilton",
+      "Sebastian Vettel",
+      "Kimi Räikkönen"
+    ],
     "answer": "Nico Rosberg",
     "image": null
   },
@@ -319,7 +349,7 @@
     "answer": "Formula E",
     "image": null
   },
-    {
+  {
     "id": 41,
     "quizId": 12,
     "question": "The Nürburgring Nordschleife is over 20 km long.",
@@ -403,7 +433,12 @@
     "id": 51,
     "quizId": 14,
     "question": "Which car was the first to break the 200 mph barrier?",
-    "options": ["Ferrari F40", "Porsche 959", "Lamborghini Countach", "Bugatti EB110"],
+    "options": [
+      "Ferrari F40",
+      "Porsche 959",
+      "Lamborghini Countach",
+      "Bugatti EB110"
+    ],
     "answer": "Ferrari F40",
     "image": null
   },
@@ -427,7 +462,12 @@
     "id": 54,
     "quizId": 14,
     "question": "Which car was the first to feature anti‑lock braking (ABS) as standard?",
-    "options": ["Mercedes-Benz S-Class", "BMW 7 Series", "Audi 100", "Volvo 240"],
+    "options": [
+      "Mercedes-Benz S-Class",
+      "BMW 7 Series",
+      "Audi 100",
+      "Volvo 240"
+    ],
     "answer": "Mercedes-Benz S-Class",
     "image": null
   },
@@ -539,7 +579,12 @@
     "id": 68,
     "quizId": 14,
     "question": "Which part of the car helps reduce harmful emissions?",
-    "options": ["Catalytic converter", "Turbocharger", "Alternator", "Oil filter"],
+    "options": [
+      "Catalytic converter",
+      "Turbocharger",
+      "Alternator",
+      "Oil filter"
+    ],
     "answer": "Catalytic converter",
     "image": null
   },
@@ -603,7 +648,12 @@
     "id": 76,
     "quizId": 13,
     "question": "What does ABS stand for in automotive technology?",
-    "options": ["Anti-lock Braking System", "Automatic Brake Support", "Active Balance System", "Advanced Braking Setup"],
+    "options": [
+      "Anti-lock Braking System",
+      "Automatic Brake Support",
+      "Active Balance System",
+      "Advanced Braking Setup"
+    ],
     "answer": "Anti-lock Braking System",
     "image": null
   },
@@ -611,7 +661,12 @@
     "id": 77,
     "quizId": 13,
     "question": "What type of motor is commonly used in electric vehicles?",
-    "options": ["Electric motor", "Diesel engine", "Rotary engine", "Hydraulic motor"],
+    "options": [
+      "Electric motor",
+      "Diesel engine",
+      "Rotary engine",
+      "Hydraulic motor"
+    ],
     "answer": "Electric motor",
     "image": null
   },
@@ -619,7 +674,12 @@
     "id": 78,
     "quizId": 13,
     "question": "What does ECU stand for?",
-    "options": ["Engine Control Unit", "Electronic Cooling Unit", "Energy Conversion Unit", "Engine Calibration Utility"],
+    "options": [
+      "Engine Control Unit",
+      "Electronic Cooling Unit",
+      "Energy Conversion Unit",
+      "Engine Calibration Utility"
+    ],
     "answer": "Engine Control Unit",
     "image": null
   },
@@ -639,11 +699,16 @@
     "answer": "Traction control",
     "image": null
   },
-    {
+  {
     "id": 81,
     "quizId": 14,
     "question": "Which technology allows a car to maintain a set distance from the vehicle ahead?",
-    "options": ["Adaptive cruise control", "Lane departure warning", "Blind spot monitoring", "Traction control"],
+    "options": [
+      "Adaptive cruise control",
+      "Lane departure warning",
+      "Blind spot monitoring",
+      "Traction control"
+    ],
     "answer": "Adaptive cruise control",
     "image": null
   },
@@ -651,7 +716,12 @@
     "id": 82,
     "quizId": 14,
     "question": "Which component converts exhaust gases into less harmful emissions?",
-    "options": ["Catalytic converter", "Turbocharger", "Intercooler", "Fuel injector"],
+    "options": [
+      "Catalytic converter",
+      "Turbocharger",
+      "Intercooler",
+      "Fuel injector"
+    ],
     "answer": "Catalytic converter",
     "image": null
   },
@@ -667,7 +737,12 @@
     "id": 84,
     "quizId": 14,
     "question": "Which system uses radar or cameras to prevent collisions?",
-    "options": ["Automatic emergency braking", "Cruise control", "ABS", "Traction control"],
+    "options": [
+      "Automatic emergency braking",
+      "Cruise control",
+      "ABS",
+      "Traction control"
+    ],
     "answer": "Automatic emergency braking",
     "image": null
   },
@@ -725,7 +800,7 @@
     "question": "Which brand uses this logo?",
     "options": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
     "answer": "Ferrari",
-    "image": "/images/ferrari.jpg"
+    "image": "/images/logos/ferrari.jpg"
   },
   {
     "id": 92,
@@ -840,5 +915,3 @@
     "image": "/images/logos/astonmartin.jpg"
   }
 ]
-
-
