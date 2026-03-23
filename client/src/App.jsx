@@ -6,6 +6,7 @@ import Signup from "./components/Signup";
 import Quiz from "./components/Quiz";
 import LandingPage from "./components/LandingPage";
 import QuizList from "./components/QuizList";
+import Leaderboard from "./components/Leaderboard";
 
 import { SessionProvider } from "./contexts/SessionContext";
 
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/quiz/:quizid" element={<Quiz />} />
           <Route path="/quizlist" element={<QuizList />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
       </SessionProvider>
