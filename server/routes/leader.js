@@ -18,7 +18,7 @@ app.post("/", async (req, res) => {
       where: {userId: userId, quizId: quizId }
     });
 
-    // 2. If it exists → update it
+    // if exists then update
     if (existingEntry) {
       if (existingEntry.score < score) {
         existingEntry.score = score;
@@ -33,6 +33,7 @@ app.post("/", async (req, res) => {
       });
     }
 
+    // if new entry (not already in databse) then add it
     const newEntry = await Leader.create({ userId, score, quizId, dateAchieved: new Date()});
     res.status(201).json(newEntry);
   } catch (error) {
