@@ -4,7 +4,7 @@ const QuizQuestion = ({ question, onAnswerChange }) => {
     console.log(`Loading image for Q#${question.id}:`, question.image);
   }
   return (
-    <div className="card bg-gray-900">
+    <div className="card bg-gray-900 justify-center align-middle">
       <div>Course Number: {question.id}</div>
       <div>Question: {question.question}</div>
 
@@ -13,7 +13,7 @@ const QuizQuestion = ({ question, onAnswerChange }) => {
           <img
             src={question.image}
             alt="Quiz context"
-            className="max-w-full h-auto rounded-md border border-gray-600"
+            className="max-w-40 h-auto rounded-md border border-gray-600"
           />
         </div>
       )}

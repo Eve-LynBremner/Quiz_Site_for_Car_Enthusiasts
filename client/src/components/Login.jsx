@@ -32,10 +32,10 @@ const Login = () => {
       });
 
       localStorage.setItem("authToken", data.token);
-      navigate("/");
+      navigate("/quizlist");
       toast.success("Login Succesful");
     } catch (error) {
-      toast.fail("Login Failed");
+      toast.error("Login Failed");
       console.error("Login failed", error);
     }
   };

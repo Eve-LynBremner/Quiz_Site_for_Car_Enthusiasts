@@ -11,25 +11,29 @@ const QuizCard = ({ quiz }) => {
       borderColor: "border-green-500",
       bgColor: "bg-green-600",
       glowColor: "142 70% 50%", // Green HSL
-      meshColors: ["#22c55e", "#16a34a", "#4ade80"], // Green Hex variety
+      meshColors: ["#22c55e", "#16a34a", "#4ade80"],
+      shadowHover: "hover:shadow-[0_0_40px_rgba(34,197,94,0.6)]",
     },
     medium: {
       borderColor: "border-yellow-500",
       bgColor: "bg-yellow-600",
       glowColor: "45 100% 50%", // Yellow/Gold HSL
-      meshColors: ["#eab308", "#ca8a04", "#fde047"], // Yellow Hex variety
+      meshColors: ["#eab308", "#ca8a04", "#fde047"],
+      shadowHover: "hover:shadow-[0_0_40px_rgba(234,179,8,0.6)]",
     },
     hard: {
       borderColor: "border-red-500",
       bgColor: "bg-red-600",
       glowColor: "0 100% 50%", // Red HSL
-      meshColors: ["#ef4444", "#dc2626", "#f87171"], // Red Hex variety
+      meshColors: ["#ef4444", "#dc2626", "#f87171"],
+      shadowHover: "hover:shadow-[0_0_40px_rgba(239,68,68,0.6)]",
     },
     default: {
       borderColor: "border-gray-300",
       bgColor: "bg-gray-500",
       glowColor: "40 80 80",
       meshColors: ["#c084fc", "#f472b6", "#38bdf8"],
+      shadowHover: "hover:shadow-[0_0_40px_rgba(239,222,222,0.8)]",
     },
   };
 
@@ -39,7 +43,7 @@ const QuizCard = ({ quiz }) => {
     <BorderGlow
       edgeSensitivity={20}
       glowColor={style.glowColor}
-      backgroundColor="#060010"
+      backgroundColor="#050101"
       borderRadius={50}
       glowRadius={50}
       glowIntensity={2}
@@ -47,20 +51,19 @@ const QuizCard = ({ quiz }) => {
       animated={true}
       colors={style.meshColors}
     >
-      <div className="card text-white">
-        <div className={`card border-4   p-8 rounded-4xl text-white`}>
+      <div className="p-8 flex flex-col items-center justify-between h-full text-white">
+        <div
+          className={`border-4  text-center rounded-4xl ${style.borderColor} `}
+        >
           {quiz.quizName}
         </div>
-
-        <div className="card-description text-white">Quiz Id{quiz.id}</div>
-        <div className=" text-white">{quiz.difficulty}</div>
 
         <div className="card-description">Quiz Category: {quiz.category}</div>
         <Link
           to={`/quiz/${quiz.id}`}
-          className="mt-4 inline-block px-4 py-2  font-semibold rounded-md bg-white text-black"
+          className={`mt-4 inline-block px-4 py-2  font-semibold rounded-md text-white text-center ${style.bgColor} transition-all duration-300 hover:box-transition-all ${style.shadowHover}`}
         >
-          Try
+          Attempt Quiz
         </Link>
       </div>
     </BorderGlow>

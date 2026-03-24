@@ -49,7 +49,7 @@ const Signup = () => {
         username: data.user.username,
         id: data.user.id,
       });
-      navigate("/");
+      navigate("/login");
 
       toast.success("Signup Succesful");
     } catch (error) {
