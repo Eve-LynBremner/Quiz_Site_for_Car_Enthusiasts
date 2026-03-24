@@ -45,9 +45,9 @@ function easeInCubic(x) {
 
 function animateValue({
   start = 0,
-  end = 100,
+  end = 200,
   duration = 1000,
-  delay = 0,
+  delay = 2,
   ease = easeOutCubic,
   onUpdate,
   onEnd,

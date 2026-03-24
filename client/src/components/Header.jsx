@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("authToken");
-    navigate("/login");
+    navigate("/");
   };
 
   const wordCase = (word) => {
@@ -23,9 +23,12 @@ const Header = () => {
 
   return (
     <header>
-      <h1>Motor Mind</h1>
+      <img
+        src="/images/logos/motormind-black.jpg"
+        alt="Motor Mind"
+        className="max-w-40 h-auto rounded-md "
+      />
       <nav>
-        <Link to="/">Home</Link>
         {token ? (
           <>
             <Link to="/quizlist">Quizlist</Link>
@@ -34,6 +37,7 @@ const Header = () => {
           </>
         ) : (
           <>
+            <Link to="/">Home</Link>
             <Link to="/login">Login</Link>
             <Link to="/signup">Signup</Link>
           </>

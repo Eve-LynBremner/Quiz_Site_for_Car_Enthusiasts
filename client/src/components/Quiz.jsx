@@ -63,8 +63,7 @@ const Quiz = () => {
 
   return (
     <div>
-      <h2>Quiz</h2>
-      <div className="flex flex-col gap-4 text-white">
+      <div className="flex flex-col max-width mx-auto items-center gap-4 text-white">
         {chosenQuiz.map((question) => (
           <QuizQuestion
             key={question.id}
@@ -73,7 +72,10 @@ const Quiz = () => {
           />
         ))}
 
-        <button onClick={handleSubmit} className="bg-green-500">
+        <button
+          onClick={handleSubmit}
+          className="px-20 py-8 text-2xl md:text-3xl border text-gray-500 bg-white border-white/20 transition-all duration-300 font-bold  hover:shadow-[0_0_40px_rgba(255,255,255,0.5)] hover:box-transition-all uppercase tracking-tighter"
+        >
           Submit
         </button>
       </div>
