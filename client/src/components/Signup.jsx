@@ -3,6 +3,8 @@ import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { useSession } from "../contexts/SessionContext";
 
+import toast from "react-hot-toast";
+
 const Signup = () => {
   const [email, setEmail] = useState("jason@fl1.digital");
   const [userName, setUserName] = useState("fl1jason");
@@ -49,12 +51,12 @@ const Signup = () => {
         username: data.user.username,
         id: data.user.id,
       });
-      navigate("/login");
 
       toast.success("Signup Succesful");
+      navigate("/login");
     } catch (error) {
-      console.error("Signup failed", error);
       toast.error("Signup Failed");
+      console.error("Signup failed", error);
     }
   };
 

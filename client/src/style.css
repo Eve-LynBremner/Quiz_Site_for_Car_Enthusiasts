@@ -19,21 +19,11 @@ header nav a,
 header nav button {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
   padding: 5px 10px;
   border: none;
   background: none;
   cursor: pointer;
-}
-
-header nav button {
-  background-color: #f00;
-  border-radius: 5px;
-}
-
-header nav a:hover,
-header nav button:hover {
-  text-decoration: underline;
+  transition: 0.3s;
 }
 
 /* Form Styles */
@@ -57,6 +47,7 @@ form input {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  transition: 0.3;
 }
 
 form button {
@@ -101,21 +92,6 @@ ul {
   gap: 20px;
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
 .button:hover {
   background-color: #0056b3;
 }
@@ -128,4 +104,30 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+}
+
+.hover-underline {
+  font-size: 2rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #000000);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
 }

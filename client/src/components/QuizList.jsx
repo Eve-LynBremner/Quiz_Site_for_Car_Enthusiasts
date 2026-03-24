@@ -12,9 +12,6 @@ const QuizList = () => {
   const [quizzes, setQuizzes] = useState([]);
 
   useGSAP(() => {
-    // gsap animations will go here
-
-    //split text animation
     const heroSplit = new SplitText(".titlenew", { type: "chars, words" });
 
     gsap.from(heroSplit.chars, {

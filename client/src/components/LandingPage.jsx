@@ -97,25 +97,37 @@ const LandingPage = () => {
           className="relative z-10 min-h-dvh w-full border border-transparent "
         >
           <div className="noisy fixed inset-0 z-[100] pointer-events-none opacity-[0.03]" />
-          <h1 className="title md:mt-32 mt-40 text-2xl md:text-[13vw] leading-none text-center text-white opacity-[65] tracking-tight">
+          <h1 className="title md:mt-32 mt-40 text-2xl md:text-[13vw] leading-none text-center font-bold text-white opacity-[65] tracking-tight">
             MotorMind
           </h1>
 
           <div className="container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5">
             <div className="flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;">
               <div className="space-y-5 hidden md:block ">
-                <p> Quiz for Car Enthusiasts</p>
-                <p className="subtitle text-3xl -mb-2 text-red-500">
+                <h1 className="text-4xl"> Quiz for Car Enthusiasts</h1>
+                <p className="subtitle text-5xl -mb-2 text-red-500">
                   Show Off Your Knowledge
                 </p>
-              </div>
-              <div>
-                <p className="subtitle text-3xl -mb-2">Try Now</p>
               </div>
             </div>
           </div>
         </section>
-        <section className="relative z-10  w-full border  border-transparent items:center min-h-screen flex items-center justify-center">
+        <section className="relative z-10  w-full border flex flex-col  border-transparent min-h-screen flex items-center justify-center">
+          <div>
+            <h1 className="text-5xl my-16 font-bold text-red-700">
+              How much do you know about cars?{" "}
+            </h1>
+            <p className="text-3xl my-8 max-w-6/12">
+              MotorMind offers a range of quizzes designed to test your
+              knowledge of cars. Choose from a range of categories and
+              difficulties, including brands, movies, logos, and general
+              knowledge. It will help you understand how much you know about the
+              world of cars and maybe even teach you something new.{" "}
+            </p>
+            <h1 className="text-3xl mb-8 text-red-600 text-shadow-red-500">
+              Let’s find out if you’re a Rookie, Racer, or Pro
+            </h1>
+          </div>
           <div className="text-center space-y-8 p-16 mb-7 backdrop-blur-xl border border-white/10 rounded-2xl  max-w-5xl w-full ">
             <div className="flex flex-col sm:flex-row gap-4 justify-center h:200px">
               <button className="px-20 py-8 text-2xl md:text-3xl  bg-red-600 text-white font-bold transition-all duration-300 hover:shadow-[0_0_40px_rgba(220,38,38,0.8)] hover:box-transition-all uppercase tracking-tighter">

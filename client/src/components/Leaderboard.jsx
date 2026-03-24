@@ -1,9 +1,25 @@
 import React, { useState, useEffect } from "react";
 import api from "../api";
-
 import BorderGlow from "./BorderGlow";
+import { useGSAP } from "@gsap/react";
+import { SplitText } from "gsap/all";
+import gsap from "gsap";
+
+gsap.registerPlugin(SplitText);
 const Leaderboard = () => {
   const [leaders, setLeaderboard] = useState([]);
+
+  useGSAP(() => {
+    const heroSplit = new SplitText(".titlenew2", { type: "chars, words" });
+
+    gsap.from(heroSplit.chars, {
+      yPercent: -70,
+      duration: 1.8,
+      ease: "expo.out",
+      stagger: 0.06,
+      opacity: 0.2,
+    });
+  }, []);
 
   useEffect(() => {
     const fetchLeaderboard = async () => {
@@ -23,7 +39,7 @@ const Leaderboard = () => {
 
   return (
     <div>
-      <h1 className="titlenew text-2xl md:text-[13vw] font-sans leading-none text-center text-gray-200 tracking-[-0.08em] text-shadow-[0_0_40px_rgba(255,255,255,0.4)]">
+      <h1 className="titlenew2 text-2xl md:text-[13vw] font-sans pt-10 leading-none text-center text-gray-200 tracking-[-0.08em] text-shadow-[0_0_40px_rgba(255,255,255,0.4)]">
         Leaderboard
       </h1>
       <BorderGlow

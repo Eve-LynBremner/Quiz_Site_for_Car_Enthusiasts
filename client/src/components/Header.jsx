@@ -22,24 +22,36 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed left-0 top-0 w-full z-50   flex justify-between items-center px-8 py-4">
+    <header className="fixed left-0 top-0 w-full z-50  flex justify-between items-center px-8 py-4">
       <img
         src="/images/logos/motormind.png"
         alt="Motor Mind"
-        className=" max-h-25 rounded-md "
+        className=" max-h-35 rounded-md "
       />
-      <nav className="font-medium bg-red-900 rounded-md">
+      <nav className="text-3xl rounded-md ">
         {token ? (
           <>
-            <Link to="/quizlist">Quizlist</Link>
-            <Link to="/leaderboard">Leaderboard</Link>
-            <button onClick={handleLogout}>Logout</button>
+            <Link to="/quizlist" className="hover-underline">
+              Quizlist
+            </Link>
+            <Link to="/leaderboard" className="hover-underline">
+              Leaderboard
+            </Link>
+            <button onClick={handleLogout} className="hover-underline ">
+              Logout
+            </button>
           </>
         ) : (
           <>
-            <Link to="/">Home</Link>
-            <Link to="/login">Login</Link>
-            <Link to="/signup">Signup</Link>
+            <Link to="/" className="hover-underline">
+              Home
+            </Link>
+            <Link to="/login" className="hover-underline">
+              Login
+            </Link>
+            <Link to="/signup" className="hover-underline">
+              Signup
+            </Link>
           </>
         )}
       </nav>
