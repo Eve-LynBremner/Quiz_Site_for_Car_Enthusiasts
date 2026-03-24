@@ -51,7 +51,7 @@ const QuizCard = ({ quiz }) => {
       animated={true}
       colors={style.meshColors}
     >
-      <div className="p-8 flex flex-col items-center justify-between h-full text-white">
+      <div className=" flex flex-col items-center justify-between h-full text-white">
         <div
           className={`border-4  text-center rounded-4xl ${style.borderColor} `}
         >

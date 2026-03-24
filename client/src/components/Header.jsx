@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("authToken");
-    navigate("/login");
+    navigate("/");
   };
 
   const wordCase = (word) => {
