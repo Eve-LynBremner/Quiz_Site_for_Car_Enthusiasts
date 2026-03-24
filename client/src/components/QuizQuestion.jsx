@@ -5,7 +5,6 @@ const QuizQuestion = ({ question, onAnswerChange }) => {
   }
   return (
     <div className="card bg-gray-900 justify-center p-5 flex flex-col items-center align-middle w-250">
-      <div>Question Number: {question.id}</div>
       <div>Question: {question.question}</div>
 
       {question.image && (

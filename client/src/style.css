@@ -10,15 +10,6 @@ body {
   color: white;
 }
 
-header {
-  background-color: transparent;
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 header nav {
   display: flex;
   gap: 15px;

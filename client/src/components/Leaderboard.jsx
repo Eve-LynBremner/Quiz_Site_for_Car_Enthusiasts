@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import api from "../api";
 
+import BorderGlow from "./BorderGlow";
 const Leaderboard = () => {
   const [leaders, setLeaderboard] = useState([]);
 
@@ -22,32 +23,48 @@ const Leaderboard = () => {
 
   return (
     <div>
-      <h2>Leaderboard</h2>
-      <div className="quiz-list flex flex-wrap gap-2">
-        <table className="leaderboard-table w-full text-left border-collapse">
-        <thead>
-          <tr>
-            <th className="border-b p-2">Rank</th>
-            <th className="border-b p-2">Username</th>
-            <th className="border-b p-2">Score</th>
-            <th className="border-b p-2">Quiz</th>
-            <th className="border-b p-2">Date</th>
-          </tr>
-        </thead>
+      <h1 className="titlenew text-2xl md:text-[13vw] font-sans leading-none text-center text-gray-200 tracking-[-0.08em] text-shadow-[0_0_40px_rgba(255,255,255,0.4)]">
+        Leaderboard
+      </h1>
+      <BorderGlow
+        edgeSensitivity={30}
+        glowColor="255 00 80"
+        backgroundColor="#0f0000"
+        borderRadius={28}
+        glowRadius={40}
+        glowIntensity={1}
+        coneSpread={5}
+        animated={true}
+        colors={["#ef4444", "#9ca3af", "#ffffff"]}
+      >
+        <div className="quiz-list flex flex-wrap gap-2">
+          <table className="leaderboard-table w-full text-left border-collapse">
+            <thead>
+              <tr>
+                <th className="border-b p-2">Rank</th>
+                <th className="border-b p-2">Username</th>
+                <th className="border-b p-2">Score</th>
+                <th className="border-b p-2">Quiz</th>
+                <th className="border-b p-2">Date</th>
+              </tr>
+            </thead>
 
-        <tbody>
-          {leaders.map((leaders) => (
-            <tr key={leaders.id}>
-              <td className="p-2">{leaders.rank}</td>
-              <td className="p-2">{leaders.user.username}</td>
-              <td className="p-2">{leaders.score}</td>
-              <td className="p-2">{leaders.quiz.quizName}</td>
-              <td className="p-2">{new Date(leaders.dateAchieved).toLocaleDateString()}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      </div>
+            <tbody>
+              {leaders.map((leaders) => (
+                <tr key={leaders.id}>
+                  <td className="p-2">{leaders.rank}</td>
+                  <td className="p-2">{leaders.user.username}</td>
+                  <td className="p-2">{leaders.score}</td>
+                  <td className="p-2">{leaders.quiz.quizName}</td>
+                  <td className="p-2">
+                    {new Date(leaders.dateAchieved).toLocaleDateString()}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </BorderGlow>
     </div>
   );
 };

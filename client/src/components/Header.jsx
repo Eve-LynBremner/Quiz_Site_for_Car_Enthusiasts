@@ -22,13 +22,13 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="fixed left-0 top-0 w-full z-50   flex justify-between items-center px-8 py-4">
       <img
-        src="/images/logos/motormind-black.jpg"
+        src="/images/logos/motormind.png"
         alt="Motor Mind"
-        className="max-w-40 h-auto rounded-md "
+        className=" max-h-25 rounded-md "
       />
-      <nav>
+      <nav className="font-medium bg-red-900 rounded-md">
         {token ? (
           <>
             <Link to="/quizlist">Quizlist</Link>
