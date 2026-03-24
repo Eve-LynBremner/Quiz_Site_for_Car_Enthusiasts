@@ -1,19 +1,19 @@
 [
     {
       "userId": 1,
-      "score": 980,
+      "score": 7,
       "quizId": 4,
       "dateAchieved": "2026-03-17T18:40:00Z"
     },
     {
       "userId": 10,
-      "score": 920,
+      "score": 9,
       "quizId": 3,
       "dateAchieved": "2026-03-17T18:30:00Z"
     },
     {
       "userId": 5,
-      "score": 900,
+      "score": 6,
       "quizId": 6,
       "dateAchieved": "2026-03-17T18:20:00Z"
     }
