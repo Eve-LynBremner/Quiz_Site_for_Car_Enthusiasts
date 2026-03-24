@@ -714,16 +714,16 @@
   },
   {
     "quizId": 7,
-    "question": "Which brand uses this logo?",
-    "options": ["Nissan", "Toyota", "Honda", "Mazda"],
-    "answer": "Nissan",
+    "question": "This Logo belongs to Mazda.",
+    "options": ["True", "False"],
+    "answer": "False",
     "image": "/images/logos/nissan.jpg"
   },
   {
     "quizId": 7,
-    "question": "Which brand uses this logo?",
-    "options": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
-    "answer": "BMW",
+    "question": "This logo belongs to BMW.",
+    "options": ["True", "False"],
+    "answer": "True",
     "image": "/images/logos/bmw.jpg"
   },
   {
@@ -776,35 +776,35 @@
     "image": null
   },
   {
-    "quizId": 9,
+    "quizId": 8,
     "question": "This logo belongs to Tesla.",
     "options": ["True", "False"],
     "answer": "True",
     "image": "/images/logos/tesla.jpg"
   },
   {
-    "quizId": 9,
+    "quizId": 8,
     "question": "This logo belongs to Bugatti.",
     "options": ["True", "False"],
     "answer": "False",
     "image": "/images/logos/koenigsegg.jpg"
   },
   {
-    "quizId": 9,
+    "quizId": 8,
     "question": "This logo belongs to Jaguar.",
     "options": ["True", "False"],
     "answer": "True",
     "image": "/images/logos/jaguar.jpg"
   },
   {
-    "quizId": 9,
+    "quizId": 8,
     "question": "This logo belongs to Alfa Romeo.",
     "options": ["True", "False"],
     "answer": "True",
     "image": "/images/logos/alfaromeo.jpg"
   },
   {
-    "quizId": 9,
+    "quizId": 8,
     "question": "This logo belongs to McLaren.",
     "options": ["True", "False"],
     "answer": "False",
@@ -1063,35 +1063,35 @@
   },
 
   {
-    "quizId": 8,
+    "quizId": 9,
     "question": "Which brand uses a griffin in its logo?",
     "options": ["Vauxhall", "Volvo", "Skoda", "Opel"],
     "answer": "Vauxhall",
     "image": null
   },
   {
-    "quizId": 8,
+    "quizId": 9,
     "question": "Which brand uses a serpent and cross in its logo?",
     "options": ["Alfa Romeo", "Maserati", "Ferrari", "Fiat"],
     "answer": "Alfa Romeo",
     "image": null
   },
   {
-    "quizId": 8,
+    "quizId": 9,
     "question": "Which brand uses a winged B?",
     "options": ["Bentley", "Bugatti", "Rolls-Royce", "Aston Martin"],
     "answer": "Bentley",
     "image": null
   },
   {
-    "quizId": 8,
+    "quizId": 9,
     "question": "Which brand uses a ram’s head?",
     "options": ["Dodge", "Jeep", "GMC", "Ford"],
     "answer": "Dodge",
     "image": null
   },
   {
-    "quizId": 8,
+    "quizId": 9,
     "question": "Which brand uses a lightning bolt?",
     "options": ["Opel", "Volvo", "Ford", "Skoda"],
     "answer": "Opel",
@@ -1102,36 +1102,36 @@
     "quizId": 9,
     "question": "This logo belongs to Pagani.",
     "options": ["True", "False"],
-    "answer": "False",
-    "image": null
-  },
-  {
-    "quizId": 9,
-    "question": "This logo belongs to Koenigsegg.",
-    "options": ["True", "False"],
     "answer": "True",
-    "image": null
-  },
-  {
-    "quizId": 9,
-    "question": "This logo belongs to Lotus.",
-    "options": ["True", "False"],
-    "answer": "True",
-    "image": null
+    "image": "/images/logos/pagani.jpg"
   },
   {
     "quizId": 9,
     "question": "This logo belongs to Bugatti.",
     "options": ["True", "False"],
     "answer": "False",
-    "image": null
+    "image": "/images/logos/bentley.jpg"
   },
   {
     "quizId": 9,
-    "question": "This logo belongs to Rimac.",
+    "question": "This logo belongs to Lotus.",
     "options": ["True", "False"],
     "answer": "True",
-    "image": null
+    "image": "/images/logos/lotus.jpg"
+  },
+  {
+    "quizId": 9,
+    "question": "This logo belongs to Rolls Royce.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "image": "/images/logos/rollsroyce.jpg"
+  },
+  {
+    "quizId": 9,
+    "question": "This logo belongs to Renault.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "image": "/images/logos/rimac.jpg"
   },
 
   {
