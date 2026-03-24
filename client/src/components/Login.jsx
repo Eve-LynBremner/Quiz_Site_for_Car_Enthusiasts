@@ -5,8 +5,8 @@ import toast from "react-hot-toast";
 import { useSession } from "../contexts/SessionContext";
 
 const defaultUser = {
-  email: "jason@fl1.digital",
-  password: "Letmein123!",
+  email: "",
+  password: "",
 };
 
 const Login = () => {

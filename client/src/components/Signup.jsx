@@ -6,10 +6,10 @@ import { useSession } from "../contexts/SessionContext";
 import toast from "react-hot-toast";
 
 const Signup = () => {
-  const [email, setEmail] = useState("jason@fl1.digital");
-  const [userName, setUserName] = useState("fl1jason");
-  const [password, setPassword] = useState("Letmein123!");
-  const [password2, setPassword2] = useState("Letmein123!");
+  const [email, setEmail] = useState();
+  const [userName, setUserName] = useState();
+  const [password, setPassword] = useState();
+  const [password2, setPassword2] = useState();
 
   const { setUser } = useSession();
   const [error, setError] = useState("");
