@@ -53,7 +53,7 @@ const QuizCard = ({ quiz }) => {
     >
       <div className=" flex flex-col items-center justify-between h-full text-white">
         <div
-          className={`border-4  text-center rounded-4xl ${style.borderColor} `}
+          className={`border-4  font-bold text-center rounded-4xl ${style.borderColor} `}
         >
           {quiz.quizName}
         </div>
@@ -61,7 +61,7 @@ const QuizCard = ({ quiz }) => {
         <div className="card-description">Quiz Category: {quiz.category}</div>
         <Link
           to={`/quiz/${quiz.id}`}
-          className={`mt-4 inline-block px-4 py-2  font-semibold rounded-md text-white text-center ${style.bgColor} transition-all duration-300 hover:box-transition-all ${style.shadowHover}`}
+          className={`mt-4 inline-block px-4 py-2  font-bold rounded-md text-white text-center ${style.bgColor} transition-all duration-300 hover:box-transition-all ${style.shadowHover}`}
         >
           Attempt Quiz
         </Link>
