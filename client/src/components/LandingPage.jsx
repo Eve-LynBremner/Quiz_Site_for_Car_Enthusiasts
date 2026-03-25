@@ -120,7 +120,7 @@ const LandingPage = () => {
             <p className="text-3xl my-8 max-w-6/12">
               MotorMind offers a range of quizzes designed to test your
               knowledge of cars. Choose from a range of categories and
-              difficulties, including brands, movies, logos, and general
+              difficulties, including brands, movies, logos, racing, and general
               knowledge. It will help you understand how much you know about the
               world of cars and maybe even teach you something new.{" "}
             </p>
