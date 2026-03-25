@@ -63,11 +63,13 @@ The application should now be running locally.
 This project is licensed under the **MIT License**.
 
 ## Authors
+
 Emmanuel Olanloye
 Alan Thomas
 Eve-Lyn Bremner
 
 ## Contact
+
 https://github.com/Phymmo20
 https://github.com/alanthoms
 https://github.com/Eve-LynBremner
