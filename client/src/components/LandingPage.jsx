@@ -82,7 +82,7 @@ const LandingPage = () => {
   return (
     <>
       <div>
-        <div className="fixed inset-0  -z-10">
+        <div className="fixed inset-0  -z-10 ">
           <video
             ref={videoRef}
             src={heroVideo}

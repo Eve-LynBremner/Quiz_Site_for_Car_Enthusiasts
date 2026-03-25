@@ -26,9 +26,9 @@ const Header = () => {
       <img
         src="/images/logos/motormind.png"
         alt="Motor Mind"
-        className=" max-h-35 rounded-md "
+        className=" max-h-25 rounded-md "
       />
-      <nav className="text-3xl rounded-md ">
+      <nav className="text-lg rounded-md font-medium">
         {token ? (
           <>
             <Link to="/quizlist" className="hover-underline">

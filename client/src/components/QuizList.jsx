@@ -41,7 +41,7 @@ const QuizList = () => {
 
   return (
     <div>
-      <h1 className="titlenew text-2xl md:text-[13vw] font-sans leading-none text-center text-gray-200 tracking-[-0.08em] text-shadow-[0_0_40px_rgba(255,255,255,0.4)]">
+      <h1 className="titlenew text-2xl font-bold md:text-[13vw] font-sans leading-none text-center text-gray-200 tracking-[-0.08em] text-shadow-[0_0_40px_rgba(255,255,255,0.4)]">
         Quizlist
       </h1>
       <div className="quiz-list flex flex-wrap gap-24 justify-center">
